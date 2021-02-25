@@ -4,6 +4,8 @@ import Break from '../components/Break/Break';
 import ThirdPage from './ThirdPage/ThirdPage';
 import SecondPage from './SecondPage/SecondPage';
 import FourthPage from './FourthPage/FourthPage';
+import FifthPage from './FifthPage/FifthPage';
+import SixthPage from './SixthPage/SixthPage';
 
 function App() {
   return (
@@ -15,6 +17,10 @@ function App() {
       <ThirdPage/>
       <Break/>
       <FourthPage/>
+      <Break/>
+      <FifthPage/>
+      <Break/>
+      <SixthPage/>
     </div>
   );
 }

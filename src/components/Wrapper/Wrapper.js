@@ -12,6 +12,22 @@ const Wrapper=styled.div`
     background:black;
     color:#fff;
     width:100vw;
+    
+    .inputField{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+        margin-bottom:5rem;
+        background:transparent;
+        @media (max-width:600px){
+            flex-direction:column;
+        }
+    }
+    .endPage{
+        display:flex;
+        flex-wrap:wrap;
+    }
     ${({img})=>
     img && 
     css`

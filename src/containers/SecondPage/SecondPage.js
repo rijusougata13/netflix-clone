@@ -24,7 +24,7 @@ const Heading1=styled.p`
     font-weight:bolder;
     color:#fff;
     padding-top:8rem;
-
+        
     @media (max-width:600px){
             font-size:2rem;
             margin-top:2rem;
@@ -32,6 +32,7 @@ const Heading1=styled.p`
             padding-left:2rem;
             padding-right:2rem;
             font-weight:bold;
+    
         }
 `;
 
@@ -44,6 +45,7 @@ const Heading2=styled.p`
     @media (max-width:600px){
             font-size:1rem;
             padding:1rem 1rem;
+            
         }
 `;
 
@@ -55,6 +57,7 @@ const TvImg=styled.img`
     @media (max-width:600px){
         height:15rem;
         width:20rem;
+
         }
 `;
 

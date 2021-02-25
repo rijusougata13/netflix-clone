@@ -21,15 +21,16 @@ const ImgBody=styled.div`
         height:100vh;
         background:rgba(3, 4, 1, 0.4);
     }
+
     .inputField{
         display:flex;
         flex-direction:row;
         align-items:center;
         justify-content:center;
-
+        /* margin-bottom:5rem; */
+        background:transparent;
         @media (max-width:600px){
             flex-direction:column;
-            justify-content:space-around;
         }
     }
 `;
@@ -41,10 +42,12 @@ const introPage=(props)=>{
             <Navbar></Navbar>
             <IntroBody>
             </IntroBody>
+           
             <div className="inputField">
                 <InputField/>
                 <Button>Get Started ></Button>
             </div>
+           
             </div>
         </ImgBody>
     );

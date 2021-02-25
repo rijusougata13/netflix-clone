@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/containers/App.css"],"names":[],"mappings":"AAAA,KACE,iBAEF,CAEA,EACE,QAAS,CACT,SAIF","file":"main.5f5c3700.chunk.css","sourcesContent":[".App {\n  text-align: center;\n\n}\n\n*{\n  margin:0 ;\n  padding: 0;\n  /* background-color: black; */\n  /* margin: 0 !important;\n    padding: 0 !important; */\n}\n\n"]}
